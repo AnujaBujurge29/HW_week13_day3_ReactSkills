@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function SearchBar() {
   return (
-    <div>
-      
+    <div style={{ width: "100%" }}> 
+      <input type='text'/>
     </div>
   )
 }

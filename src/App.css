@@ -1,6 +1,121 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+} */
+.app {
+  display: flex;
+  border: solid black;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 60%;
+  text-align: center;
 }
+input {
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+.search {
+  height: 25px;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: solid;
+  border-color: green;
+}
+h2 {
+  text-align: center;
+  margin: auto;
+}
+.headerPage {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  border: solid;
+  border-color: rgb(61, 149, 238);
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.homePage {
+  width: 50%;
+  border: solid;
+  border-color: darkorange;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+.image {
+  width: 100px;
+  border-radius: 50%;
+}
+.employee {
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  border: 2px solid rgb(192, 36, 36);
+  display: flex;
+}
+.employeeList {
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  border: solid 2px;
+  border-color: purple;
+}
+.jobTitle {
+  color: gray;
+}
+.employeepage {
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  width: 50%;
+  border: solid brown;
+  display: flex;
+  /* flex-direction: row; */
+}
+.employeeHeader {
+  width: 100%;
+}
+.info h5{
+  margin:0;
+  padding:0;
+}
+.info {
+  padding:10px;
+  margin:0;
+  text-align: left;
+  border: 1px solid grey;
+  height: 30%; 
+}
+.main {
+  /* height:50%; */
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30%;
+  border: 1px solid grey;
+}
+button {
+  background-color: white;
+  border: none;
+  color: rgb(61, 149, 238);
+  font-size: 25px;
+}
+p {
+  color: grey;
+  margin:0
+}
+
